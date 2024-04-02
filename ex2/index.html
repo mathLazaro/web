@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projeto Extensão</title>
+</head>
+
+<body>
+    <nav>
+        <ul>
+            <li><a href="https://unifei.edu.br/">UNIFEI</a></li>
+            <li><a href="https://proex.unifei.edu.br/">PROEX</a></li>
+            <li><a href="https://unifei.edu.br/evento/integra-unifei-2023-campus-itajuba/">INTEGRA UNIFEI</a></li>
+        </ul>
+    </nav>
+    <header>
+        <h1>Formulário de Apresentação de Projetos de Extenção</h1>
+    </header>
+    <main>
+        <p>Nesse formulário sua equipe deverá preencher os dados do seu projeto para que a PROEX possa distribuir os
+            stands da forma mais adequada</p>
+        <form action="formulario/">
+            <fieldset>
+                <legend>Identificação do Projeto</legend>
+                <label for="nome">Nome do projeto</label>
+                <input type="text" name="nome" id="nome">
+                <label for="integrantes">Quantidade de integrantes</label>
+                <input type="text" name="integrantes" id="integrantes">
+                <label for="instituto">Instituto de Localização</label>
+                <input type="text" name="instituto" id="instituto">
+            </fieldset>
+            <fieldset>
+                <legend>Área de atuação</legend>
+                <p>Selecione apenas uma opção</p>
+                <div>
+                    <input type="radio" name="atuacao" id="atuacao" value="web">
+                    <label for="web">Aplicação Web/Mobile</label>
+                    <input type="radio" name="atuacao" id="atuacao" value="jogos">
+                    <label for="jogos">Desenvolvimento de Jogos</label>
+                    <input type="radio" name="atuacao" id="atuacao" value="drone">
+                    <label for="drone">Drones</label>
+                    <input type="radio" name="atuacao" id="atuacao" value="robo">
+                    <label for="robo">Competição de Robôs</label>
+                    <input type="radio" name="atuacao" id="atuacao" value="contabilidade">
+                    <label for="contabilidade">Contabilidade</label>
+                    <input type="radio" name="atuacao" id="atuacao" value="mete" value="meteorologia">
+                    <label for="meteorologia">Meteorologia</label>
+                </div>
+            </fieldset>
+            <fieldset>
+                <legend>Fomento</legend>
+                <div>
+                    <label for="tipo">Tipo</label>
+                    <select name="tipo" id="tipo">
+                        <option value="empresa.junior">Empresa Junior</option>
+                        <option value="inovacao">Inovação Tecnológica</option>
+                        <option value="competicao">Competiçao</option>
+                        <option value="comunidade">Comunidade</option>
+                    </select>
+                </div>
+            </fieldset>
+            <button>Enviar</button>
+        </form>
+
+    </main>
+    <footer>
+        <p>Feito com &hearts; por <a href="https://github.com/mathLazaro">Matheus Lázaro de Lima</a></p>
+    </footer>
+
+</body>
+
+</html>
