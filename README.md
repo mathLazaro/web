@@ -11,3 +11,7 @@ Consiste em criar um conjunto de páginas para listar itens a serem adquiridos p
 ### tarefa2
 
 Criar um currículo em html.
+
+### tarefa3
+
+Estilizar uma página de login com css de acordo com o estilo proposto no pdf da atividade.
