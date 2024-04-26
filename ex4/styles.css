@@ -1,0 +1,46 @@
+body {
+    text-align: center;
+    font-family: "Montserrat", sans-serif;
+}
+
+img {
+    width: 60%;
+    margin-top: 4%;
+}
+
+button {
+    display: inline-block;
+    font-size: 15pt;
+    border: solid black 1px;
+    border-radius: 18px;
+    padding: 0.1% 2%;
+}
+
+.game-area {
+    border: solid 2px black;
+    border-radius: 20px;
+    width: 50%;
+    margin: auto auto;
+}
+
+.hidden {
+    border: dashed 2px hwb(0 0% 100%);
+    width: 55%;
+    margin: 5% auto;
+    padding: .8% 0;
+    border-radius: 20px;
+    font-size: 20pt;
+    color: #00000000;
+}
+
+.game-resposta {
+    margin: 2% auto;
+    font-size: 15pt;
+}
+
+#resposta {
+    font-size: 15pt;
+    text-align: center;
+    width: 30%;
+    border-radius: 18px;
+}
