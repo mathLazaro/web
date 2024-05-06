@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Pontuação</title>
+        <link rel="stylesheet" href="styles.css" />
+    </head>
+    <body>
+        <header>
+            <img src="fig/magic-fig.webp" alt="maigic image" />
+            <p>Marcador de Pontuação Magic the Gathering</p>
+        </header>
+
+        <main>
+            <div id="score">
+                <p id="player-score-1">0</p>
+                <p>a</p>
+                <p id="player-score-2">0</p>
+            </div>
+            <div>
+                <p style="display: inline">Escolha a Pontuação Vitoriosa</p>
+                <select id="max-score" id="select-max-score">
+                    <option value="5">5</option>
+                    <option value="10">10</option>
+                    <option value="15">15</option>
+                    <option value="20">20</option>
+                    <option value="25">25</option>
+                </select>
+            </div>
+            <p>Use os botões para marcar a pontuação</p>
+            <div id="button-div">
+                <button id="player-1">Jogador 1</button>
+                <button id="player-2">Jogador 2</button>
+                <button id="reset">Reiniciar</button>
+            </div>
+        </main>
+
+        <script src="main.js"></script>
+    </body>
+</html>

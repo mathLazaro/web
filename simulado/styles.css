@@ -1,0 +1,58 @@
+body {
+    margin: 2% 25%;
+    font-size: 1.2em;
+}
+
+img {
+    width: 100%;
+}
+
+main {
+    border: 2px solid black;
+    text-align: center;
+    height: 15rem;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+button {
+    flex: auto;
+    border: 1px solid black;
+    border-radius: 0px;
+    font-size: 1.2rem;
+    color: white;
+}
+
+select {
+    font-size: 1em;
+    margin-left: 4%;
+}
+
+#score > p {
+    display: inline;
+    padding: 10px;
+}
+
+#score {
+    margin-top: 2%;
+    font-weight: bold;
+    font-size: 2em;
+}
+
+#button-div {
+    display: flex;
+}
+
+#player-1 {
+    background-color: green;
+}
+
+#player-2 {
+    background-color: blue;
+}
+
+#reset {
+    background-color: red;
+}
