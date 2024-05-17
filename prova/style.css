@@ -1,0 +1,69 @@
+body {
+    font-family: "Roboto", sans-serif;
+    text-align: center;
+}
+
+section {
+    margin: 0.5% auto;
+    border: 1px solid black;
+    border-radius: 15px;
+    width: 40%;
+    font-size: 1em;
+}
+
+input {
+    padding: 0 10px;
+    border-radius: 10px;
+    width: 30%;
+    font-size: 1em;
+}
+
+button {
+    color: white;
+    font-size: 1em;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+
+li {
+    display: flex;
+    justify-content: space-between;
+    /* text-align: left; */
+}
+
+#input-section {
+    height: 15em;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    flex-wrap: nowrap;
+}
+
+#input-button {
+    width: 20%;
+    background-color: cadetblue;
+}
+
+#sub-button {
+    background-color: red;
+    width: 10%;
+    margin: 0 2%;
+}
+
+#add-button {
+    background-color: green;
+    width: 10%;
+    margin: 0 2%;
+
+}
+
+#span-info {
+    text-align: left;
+    width: 50%;
+}
+
+#span-button {
+    text-align: right;
+
+    width: 40%;
+}
